@@ -16,7 +16,7 @@ def test_area_exception():
         circle.circle_are(-3)
 
 
-def test_area_type_exeption():
+def test_area_type_exception():
     with pytest.raises(TypeError):
         circle.circle_are('asf')
 
